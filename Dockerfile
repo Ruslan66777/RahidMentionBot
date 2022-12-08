@@ -15,7 +15,7 @@ RUN apt-get -qq install -y \
 
 
 # Install requirements
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 RUN chmod a+x start
 CMD ["./start"]
